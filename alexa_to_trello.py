@@ -1,3 +1,6 @@
+import pip
+import pdb
+#  pip.main(["install","bs4"])
 from bs4 import BeautifulSoup
 import configparser
 import json
@@ -16,6 +19,7 @@ class AmazonManager():
 
         self.email = email
         self.password = password
+        pdb.set_trace()
         self.session = requests.Session()
 
         self.default_headers = {
@@ -147,6 +151,7 @@ class TrelloManager():
 
 def process_list(manager, trello, buy_list_id):
     # Get all the items on your shopping list
+    pdb.set_trace()
     items = manager.fetch_items()
 
     for item in items:
@@ -166,7 +171,8 @@ def main(argv):
 
     # Load the config info from the config.txt file
     config = configparser.ConfigParser()
-    config.read("config.txt")
+    pdb.set_trace()
+    config.read("config_example.txt")
 
     # Make sure we have the items in the config.txt file
     try:
