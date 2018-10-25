@@ -1,0 +1,1 @@
+This repo is for debugging Chan's code.  I have NOT fixed it yet, please do not expect it to work, especially without my password in the config.  Also Please don't try it with my username in the config.  Thanks!
