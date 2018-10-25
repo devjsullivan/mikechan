@@ -1,6 +1,6 @@
 [Amazon]
 email: skittlebiz@gmail.com
-password: W3ogl3in
+password: boo3Boo
 
 [Trello]
 app_key: Grindr
